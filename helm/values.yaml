@@ -1,7 +1,0 @@
-# UI controll
-replicas: 1
-port: 80
-
-image:
-  repository: "actionregistry.azurecr.io/aksdemo"
-  tag: latest

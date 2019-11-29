@@ -1,17 +1,17 @@
 apiVersion : apps/v1beta1
 kind: Deployment
 metadata:
-  name: aksdemo 
+  name: gkedemo 
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: aksdemo 
+        app: gkedemo 
     spec:
       containers:
-        - name: aksdemo 
-          image: actionregistry.azurecr.io/aksdemo 
+        - name: gke-demo 
+          image: gcr.io/twilight-pulsar-46/gke-demo:TAG 
           imagePullPolicy: Always
           ports:
           - containerPort: 80
