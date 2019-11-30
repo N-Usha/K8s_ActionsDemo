@@ -9,6 +9,8 @@
 #
 # 2. Change the values for the REGISTRY_NAME, AKS_CLUSTER_NAME, CLUSTER_RESOURCE_GROUP and NAMESPACE environment variables (below).
 
+name: Build and Deploy to AKS
+
 on: [push]
 
 # Environment variables available to all jobs and steps in this workflow
