@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: gke-demo 
-          image: gcr.io/twilight-pulsar-46/gke-demo:TAG 
+          image: gcr.io/twilight-pulsar-46/gke-test:TAG 
           imagePullPolicy: Always
           ports:
           - containerPort: 80
