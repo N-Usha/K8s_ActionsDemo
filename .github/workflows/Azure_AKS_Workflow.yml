@@ -64,7 +64,7 @@ jobs:
       with:
         renderEngine: 'helm2'
         helmChart: './helm/' 
-        helm-version: 'latest' 
+        helm-version: '3.2.4' 
         overrides: |
           image.repository:${{ env.REGISTRY_NAME }}.azurecr.io/aksdemo
           image.tag:${{ github.sha }}
